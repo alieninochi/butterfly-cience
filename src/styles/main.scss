@@ -45,19 +45,7 @@ section {
     font-weight: lighter;
 }
 
-// .container-fluid {
-//     position: absolute;
-//     left: 15%;
-
-//     @include media-laptop {
-//         left: 10%;
-//     }
-
-//     @include media-mobile {
-//         left: 0;
-//     }
-// }
-
 @import 'header';
 @import 'services';
 @import 'about';
+@import 'review';
