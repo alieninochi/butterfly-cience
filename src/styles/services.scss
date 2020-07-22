@@ -1,0 +1,36 @@
+.services__header {
+    margin-top: 3.125rem;
+}
+
+.services .container-fluid {
+    width: 80%;
+    margin-top: 3.125rem;
+
+    @include media-tablet {
+        width: 100%;
+    }
+}
+
+.service-item {
+    width: 25%;
+
+    @include media-mobile {
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+}
+
+.service__icon {
+    transition: all 0.8s;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top: 1.75rem;
+}
+
+.service__text {
+    font-size: 1.25rem;
+    margin-top: 0.75rem;
+}

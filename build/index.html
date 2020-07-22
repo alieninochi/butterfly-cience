@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Butterfly</title>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -37,7 +38,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-4 service-item">
-                        <img src="../src/img/icon1.svg" alt="icon" class="service__icon">
+                        <img src="../src/img/icon1.svg" alt="icon" class="service__icon wow animate__backInDown">
                         <h3>Service A</h3>
                         <p class="service__text text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -46,7 +47,7 @@
                         </p>
                     </div>
                     <div class="col-sm-4 service-item">
-                        <img src="../src/img/icon2.svg" alt="icon" class="service__icon">
+                        <img src="../src/img/icon2.svg" alt="icon" class="service__icon wow animate__backInDown">
                         <h3>Service B</h3>
                         <p class="service__text text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -55,7 +56,7 @@
                         </p>
                     </div>
                     <div class="col-sm-4 service-item">
-                        <img src="../src/img/icon3.svg" alt="icon" class="service__icon">
+                        <img src="../src/img/icon3.svg" alt="icon" class="service__icon wow animate__backInDown">
                         <h3>Service C</h3>
                         <p class="service__text text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -159,5 +160,18 @@
         </div>
     </footer>
     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+                wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animate__animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>
 </body>
 </html>
