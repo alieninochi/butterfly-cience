@@ -1,0 +1,62 @@
+@import 'media';
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+h1, h2, h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.75rem;
+}
+
+.text {
+    font-weight: lighter;
+}
+
+// .container-fluid {
+//     position: absolute;
+//     left: 15%;
+
+//     @include media-laptop {
+//         left: 10%;
+//     }
+
+//     @include media-mobile {
+//         left: 0;
+//     }
+// }
+
+@import 'header';
+@import 'services';

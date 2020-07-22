@@ -1,0 +1,67 @@
+@import 'media';
+
+.main-header {
+    position: relative;
+    height: 850px;
+    background-image: url('../../src/img/bg-header-desktop.jpg');
+    background-color:rgba(45,45,45,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+
+    @include media-laptop {
+        height: 660px;
+    }
+
+    @include media-tablet {
+        background-attachment: unset;
+    }
+}
+
+.main-header .container-fluid {
+    width: 30%;
+    position: absolute;
+    top: 2.5rem;
+    left: 15%;
+
+    color: #fff;
+
+    @include media-laptop {
+        left: 10%;
+    }
+
+    @include media-tablet {
+        width: 75%;
+    }
+
+    @include media-mobile {
+        width: 100%;
+        left: 0;
+    }
+}
+
+h1 {
+    margin-top: 3.75rem;
+    font-weight: lighter;
+}
+
+.header__text {
+    margin-top: 1.25rem;
+    margin-bottom: 3.125rem;
+    font-size: 1.125rem;
+    font-weight: lighter;
+}
+
+.header__button {
+    width: 200px;
+    height: 50px;
+    padding: 0.675rem 1.25rem;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: $green;
+    border-radius: 10px;
+}
+
