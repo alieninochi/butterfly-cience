@@ -9,10 +9,15 @@
 
 .about__header {
     position: relative;
-    left: 5%;
+    left: 20%;
     margin-top: 4rem;
     text-align: center;
-    width: 85%;
+    width: 75%;
+
+    @include media-laptop {
+        width: 85%;
+        left: 10%;
+    }
 
     @include media-tablet {
         margin-top: 2rem;
@@ -26,10 +31,15 @@
 
 .about__text {
     position: relative;
-    left: 5%;
+    left: 20%;
     font-size: 1.125rem;
-    width: 85%;
+    width: 75%;
     margin-top: 1.25em;
+
+    @include media-laptop {
+        width: 85%;
+        left: 10%;
+    }
 
     @include media-mobile {
         width: 100%;

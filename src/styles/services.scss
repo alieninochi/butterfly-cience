@@ -3,10 +3,14 @@
 }
 
 .services .container-fluid {
-    width: 90%;
+    width: 80%;
     margin-top: 3.125rem;
 
-    @include media-tablet {
+    @include media-laptop {
+        width: 90%;
+    }
+
+    @include media-mobile {
         width: 100%;
     }
 }
