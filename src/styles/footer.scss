@@ -1,0 +1,21 @@
+@import 'media';
+
+.footer {
+    background-color: #0A1034;
+    color: white;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.footer__row {
+    margin: 0 auto;
+}
+
+.footer__logo {
+    margin: 1rem auto;
+}
+
+.footer__text {
+    display: inline-block;
+    margin-top: 3rem;
+}

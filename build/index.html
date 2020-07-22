@@ -134,24 +134,27 @@
                 </div>
             </div>
         </section>
+
         <section class="calendar" id="calendar">
-            <h2 class="calendar__header calendar">
+            <h2 class="calendar__header header">
                 Vestibulum ornare nec enim at viverra integer non quam euismod.
             </h2>
-            <div class="calendly-inline-widget" data-url="https://calendly.com/tatester-test/30min" style="min-width:320px;height:660px;"></div>
+            <div class="calendly-inline-widget" data-url="https://calendly.com/tatester-test/30min" style="min-width:320px;height:700px;"></div>
         </section>
     </main>
 
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="../src/img/logo.svg" alt="logo" class="logo">
+            <div class="row footer-row">
+                <div class="col-sm-1">
+                    <img src="../src/img/logo.svg" alt="logo" class="footer__logo">
+                </div>
+                <div class="col-sm-4">
                     <span class="footer__text">
                         © 2019 <b>MAJOLO Group</b> • All Rights Reserved
                     </span>
                 </div>
-                <div class="col">
+                <div class="col-sm-7">
                     <span class="footer__text">
                         +1 (949) 424-6602 | contact@majologroup.com
                     </span>
@@ -159,19 +162,19 @@
             </div>
         </div>
     </footer>
+
     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
-                wow = new WOW(
-                      {
-                      boxClass:     'wow',      // default
-                      animateClass: 'animate__animated', // default
-                      offset:       0,          // default
-                      mobile:       true,       // default
-                      live:         true        // default
-                    }
-                    )
-                    wow.init();
+        wow = new WOW(
+            {
+                boxClass:     'wow',      // default
+                animateClass: 'animate__animated', // default
+                offset:       0,          // default
+                mobile:       true,       // default
+                live:         true        // default
+            });
+            wow.init();
     </script>
 </body>
 </html>

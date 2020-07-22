@@ -65,3 +65,9 @@ h1 {
     border-radius: 10px;
 }
 
+.header__button:hover {
+    background-color: #fff;
+    color: $green;
+    border: 1px solid $green;
+}
+
