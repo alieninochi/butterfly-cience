@@ -12,6 +12,7 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body,
@@ -49,3 +50,4 @@ section {
 @import 'services';
 @import 'about';
 @import 'review';
+@import 'calendar';
